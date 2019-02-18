@@ -1,0 +1,38 @@
+*{
+    font-family: Roboto, sans-serif;
+}
+
+#mapid{
+    width: 100vw;
+    height: 100vh;
+}
+
+.dropdown-item{
+    cursor: pointer;
+}
+
+.nome_entidade{
+    text-align: center;
+    margin-bottom: 0!important;
+    font-weight: bold;
+}
+
+.link_entidade{
+    text-align: center;
+    margin-top: 5px!important;
+}
+
+.link_entidade a{
+    text-decoration: none;
+}
+
+.link_entidade a:not(hover){
+    color: black;
+    transition: 0.5s ease;
+
+}
+
+.link_entidade a:hover{
+    color: #fcb03f;
+    transition: 0.5s ease;
+}
